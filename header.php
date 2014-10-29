@@ -24,6 +24,7 @@
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
@@ -40,12 +41,13 @@
 	
 	<!-- THICKBOX-->
  	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/thickbox.css" type="text/css" media="screen" charset="utf-8" />
- 	<script src="<?php echo get_template_directory_uri(); ?>/js/thickbox.js" type="text/javascript" charset="utf-8"></script>
+ 	
   
   <!--[if lt IE 8]>
   	<script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js" type="text/javascript"></script>
   <![endif]-->
 	<?php wp_head(); ?>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/thickbox.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -53,7 +55,7 @@
   		
   		<div id="header">
   		
-  			<div id="logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>images/core/logo.gif" alt="B&amp;M's Pave N Drain: Paving &amp; Draining Services in Perth" /></a></div>
+  			<div id="logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/core/logo.gif" alt="B&amp;M's Pave N Drain: Paving &amp; Draining Services in Perth" /></a></div>
   			<div id="quote">Make it happen with B&amp;M's. Call us today </div>
   			<div id="navigation">
   				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false ) ); ?>

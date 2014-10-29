@@ -530,3 +530,105 @@ function twentythirteen_customize_preview_js() {
 	wp_enqueue_script( 'twentythirteen-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), '20130226', true );
 }
 add_action( 'customize_preview_init', 'twentythirteen_customize_preview_js' );
+
+//                                       __   
+//    ____ ___  __  __   _________  ____/ /__ 
+//   / __ `__ \/ / / /  / ___/ __ \/ __  / _ \
+//  / / / / / / /_/ /  / /__/ /_/ / /_/ /  __/
+// /_/ /_/ /_/\__, /   \___/\____/\__,_/\___/ 
+//           /____/                           
+// ==============================================================
+// Require
+// ==============================================================
+require_once 'includes/__.php';
+
+// ==============================================================
+// Controls collection
+// ==============================================================
+$ccollection_contacts = new Controls\ControlsCollection(
+	array(
+		new Controls\Textarea(
+			'Address', 
+			array('default-value' => 'Based in Palmyra<br>Western Australia 6157'), 
+			array('placeholder' => 'Your contact address')
+		),
+		new Controls\Text(
+			'Mobile phone number', 
+			array('default-value' => '0418 906 735'), 
+			array('placeholder' => 'Your contact mobile phone number')
+		),
+		new Controls\Text(
+			'Phone number', 
+			array('default-value' => '(08) 9339 5589'), 
+			array('placeholder' => 'Your contact phone number')
+		),
+		new Controls\Text(
+			'Fax phone number', 
+			array('default-value' => '(08) 9438 3047'), 
+			array('placeholder' => 'Your contact fax phone number')
+		),
+		new Controls\Text(
+			'Contact email', 
+			array('default-value' => 'deane@pavedrain.com.au'), 
+			array('placeholder' => 'Your contact email')
+		),
+	)
+);
+
+// ==============================================================
+// Sections
+// ==============================================================
+$section_contacts = new Admin\Section(
+	'Contact info', 
+	array( 
+		'prefix' => 'ci_',
+		'tab_icon' => 'fa-info' 
+	), 
+	$ccollection_contacts
+);
+
+// ==============================================================
+// Pages and Post types
+// ==============================================================
+$theme_settings = new Admin\Page(
+	'Theme settings', 
+	array(), 
+	array( $section_contacts )
+);
+$post_type_slider = new Admin\PostType(
+	'Slider', 
+	array(
+		'icon_code' => 'f03e', 
+		'supports' => array('title', 'thumbnail')
+	)
+);
+
+// ==============================================================
+// Class init
+// ==============================================================
+$slider = new Slider();
+
+// ==============================================================
+// Actions & Filters
+// ==============================================================
+add_action( 'wp_enqueue_scripts', 'scriptsAndStyles' );
+// ==============================================================
+// Image sizes
+// ==============================================================
+add_image_size( 'medium', 400, 300, true );
+
+/**
+ * Add scripts and styles to Theme
+ */
+function scriptsAndStyles()
+{
+	wp_enqueue_script( 'main', get_template_directory_uri().'/js/main.js' );
+	//wp_enqueue_script( 'thickbox', get_template_directory_uri(),'/js/thickbox.js' );
+	wp_localize_script( 
+		'main', 
+		'defaults',
+		array(
+			'theme_url' => get_template_directory_uri()
+		) 
+	);
+}

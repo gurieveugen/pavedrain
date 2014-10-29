@@ -18,8 +18,8 @@ get_header(); ?>
   		<div id="banner">
   		
   		
-  		
-  			<div id="image-cycle">
+  		<?php echo do_shortcode( '[slider]' ); ?>
+  			<!-- <div id="image-cycle">
   			
   				<a id="previous-button">Previous</a>
   				
@@ -39,7 +39,7 @@ get_header(); ?>
   				
   				<div id="frame"></div>
   				
-  			</div>
+  			</div> -->
   			
   			<div id="ctas" class="clearfix">
   			
