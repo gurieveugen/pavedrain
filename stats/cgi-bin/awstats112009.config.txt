@@ -1,0 +1,381 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2009-11 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2537                
+POS_VISITOR 7504                
+POS_DAY 9896                
+POS_DOMAIN 3191                
+POS_LOGIN 3492                
+POS_ROBOT 3692                
+POS_WORMS 3994                
+POS_EMAILSENDER 4125                
+POS_EMAILRECEIVER 4268                
+POS_SESSION 10135               
+POS_SIDER 10342               
+POS_FILETYPES 4403                
+POS_OS 4653                
+POS_BROWSER 4766                
+POS_SCREENSIZE 5017                
+POS_UNKNOWNREFERER 5091                
+POS_UNKNOWNREFERERBROWSER 5499                
+POS_ORIGIN 5704                
+POS_SEREFERRALS 5844                
+POS_PAGEREFS 6001                
+POS_SEARCHWORDS 6366                
+POS_KEYWORDS 6740                
+POS_MISC 2200                
+POS_ERRORS 6992                
+POS_CLUSTER 3348                
+POS_SIDER_404 7132                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20091201004651 5 216 85955721210
+FirstTime 20091124011533
+LastTime 20091130022237
+LastUpdate 20091201202141 5 0 0 3 1
+TotalVisits 56                  
+TotalUnique 45                  
+MonthHostsKnown 30                  
+MonthHostsUnknown 18                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 18 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 16 117 2347058 3 3 2463
+1 20 327 3136960 9 9 12847
+2 7 101 1616663 6 10 32876
+3 18 317 4532119 6 6 13821
+4 2 47 15457 1 1 0
+5 0 0 0 3 7 13067
+6 6 65 967490 8 11 273197
+7 62 462 3203258 18 19 40316
+8 11 224 2870792 2 3 860
+9 17 279 4395986 3 7 5649
+10 3 47 859192 1 1 0
+11 2 74 1308853 2 2 0
+12 15 476 1309267 8 8 29511
+13 1 41 342112 1 1 0
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 0 0 0 4 4 2779
+17 10 89 1943725 5 13 16400
+18 0 0 0 0 0 0
+19 0 0 0 1 1 0
+20 0 0 0 1 1 0
+21 0 0 0 0 0 0
+22 5 95 1620976 0 0 0
+23 14 210 5364798 4 4 8754
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+ip 104 1029 12055947
+au 77 1720 17984004
+com 20 133 2680602
+net 7 88 3106163
+biz 1 1 7990
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+WEBSERVER\pavedrain 3 3 87588 20091125012028
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+slurp 36 51630 20091130053235 7
+googlebot 32 327740 20091129161942 5
+ia_archiver 11 37073 20091128125158 6
+unknown 3 3338 20091127035728 3
+magpie 1 7990 20091127035729 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+shtml 200 1333753 0 0
+pl 6 169502 0 0
+asp 1 605 0 0
+gif 673 1992952 0 0
+swf 102 2195120 0 0
+xml 1 1110 0 0
+css 248 501666 0 0
+png 176 927810 0 0
+js 459 4847280 0 0
+jpg 1104 23864608 0 0
+html 1 300 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+winxp 2156
+winnt 116
+winlong 209
+win2000 1
+linux 82
+macosx 329
+Unknown 78
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 14
+msie7.0 119
+safari 363
+msie8.0 1406
+Unknown 69
+firefox3.5.1 82
+firefox3.5.2 41
+firefox3.5.3 350
+firefox3.0.4 41
+firefox3.5.5 204
+firefox3.0.10 47
+firefox3.0.6 42
+firefox3.0.7 1
+msie6.0 179
+mozilla 27
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Mozilla/5.0_(compatible;_HotFrog/1.0;__http://www.hotfrog.com.au/) 20091126011655
+Mozilla/5.0_(compatible;_XML_Sitemaps_Generator;_http://www.xml-sitemaps.com)_Gecko_XML-Sitemaps/1.0 20091125071639
+PHP/5.2.6 20091126012302
+Google-Site-Verification/1.0 20091125072045
+Xenu_Link_Sleuth_1.3c 20091125071424
+- 20091126011257
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+PHP/5.2.6 20091126012302
+Google-Site-Verification/1.0 20091125072045
+Xenu_Link_Sleuth_1.3c 20091125071424
+- 20091126011257
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 69 154
+From1 0 0
+From2 11 11
+From3 5 5
+From4 124 2801
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 11 11
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://sem.webfirm.com/Campaign.asp 2 2
+http://www.aussieweb.com.au/content/review-addlistingv4.aspx 1 1
+http://www.hotfrog.com.au/Companies/B-Ms-Pave-N-Drain 1 1
+http://www.encyclopedia.com/doc/1g1-70196984.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 10
+pavedrain 2
+www.pavedrain.com.au 1
+b+%26+m+innovative+brick+paving 1
+stormwater+drains+perth 1
+backwash+soakwells+how+to 1
+paving+perth 1
+paving+drainage+channel 1
+pave+drain 1
+spoon+drain+perth+wa 1
+backwash+soakwells 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 21
+perth 3
+paving 3
+soakwells 2
+backwash 2
+pavedrain 2
+drain 2
+pave 1
+www.pavedrain.com.au 1
+b 1
+stormwater 1
+spoon 1
+%26 1
+brick 1
+m 1
+drains 1
+wa 1
+how 1
+innovative 1
+drainage 1
+channel 1
+to 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+206 1 860
+401 6 11631
+403 1 160
+404 3 5385
+301 16 6269
+302 1 464
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 3
+/images/cycle/04-5.jpg 1 -
+/index.php 1 -
+/sitemap.xml.asp 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 48
+192.168.0.112 35 284 1149362 20091126004140
+webfirm1 18 18 141797 20091126040913
+cpe-121-209-88-113.cycw1.wel.bigpond.net.au 18 714 2679697 20091128010501
+192.168.0.189 11 73 1001521 20091127093031
+124-169-72-254.dyn.iinet.net.au 9 23 955291 20091126004932
+cellseek.rk8.com 8 8 51630 20091125071639
+203-166-44-58.static.globaldial.com 8 81 1927707 20091127171540
+it-01 7 47 846274 20091125012028
+192.168.0.159 7 66 974957 20091125031419
+comple94.lnk.telstra.net 7 88 3106163 20091126230316
+216.104.15.142 0 2 0 
+10.3.10.137 1 42 681371 20091130022237
+192.168.0.111 1 41 677295 20091127093659
+119.11.30.125 1 32 627482 20091126113039
+10.3.10.174 1 42 681371 20091129235430
+cpe-58-167-226-30.lns4.wel.bigpond.net.au 6 59 935292 20091127023957
+cpe-121-221-230-198.lns7.pie.bigpond.net.au 5 101 925517 20091128080125
+10.3.10.175 3 49 801827 20091129223926
+71.54.96.58.static.exetel.com.au 1 42 681371 20091126114511
+vps.businessseek.biz 1 1 7990 20091126012302
+mail.hosted-products.com 1 1 7990 20091126011257
+58-84-139-252.e-wire.net.au 6 72 1480406 20091127231627
+cpe-58-170-160-205.lns1.pie.bigpond.net.au 5 68 1490008 20091128082346
+122-102-100-177.telarus.com.au 3 56 866430 20091127075436
+124-169-91-42.dyn.iinet.net.au 4 60 871793 20091125125159
+216.104.15.130 2 5 16018 20091127171310
+115.131.44.191 2 40 851183 20091126102009
+216.104.15.134 0 2 0 
+webfirm-seo-01 1 41 676772 20091125032002
+cpe-143-238-209-77.lns1.pie.bigpond.net.au 2 54 916007 20091126232444
+skynet.westernpower.com.au 6 156 1999013 20091126032545
+infolink.com.au 1 1 7990 20091126011655
+216.104.15.138 0 5 0 
+174.34.147.84.rdns.ubiquityservers.com 1 41 677295 20091126011540
+72.14.194.33 1 1 300 20091125072045
+77.28.14.55 1 41 677295 20091126090936
+1webfirm 7 66 203238 20091125071423
+host81-142-201-165.in-addr.btopenworld.com 1 1 7990 20091127080057
+150.70.84.47 1 8 8009 20091127171309
+192.168.0.166 1 41 677295 20091127092841
+staffmail.webfirm.com.au 1 41 636948 20091125032135
+192.168.0.186 1 41 677295 20091130000416
+203-59-90-203.dyn.iinet.net.au 1 41 677295 20091129093508
+d58-107-53-5.sun3.vic.optusnet.com.au 3 53 911897 20091129074323
+122.111.145.191.optusnet.com.au 3 128 1026351 20091127134727
+dirt05.netscape.com 1 1 7990 20091126073636
+leslie 2 42 685285 20091127092754
+203-59-111-247.dyn.iinet.net.au 3 51 922698 20091126073754
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 7
+20091124 4 193 2037783 4
+20091125 91 1039 5920885 12
+20091126 46 547 10846655 18
+20091127 42 515 8617351 12
+20091128 16 409 3980976 4
+20091129 8 185 3072390 4
+20091130 2 83 1358666 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+15mn-30mn 1
+0s-30s 35
+1h+ 1
+5mn-15mn 2
+30s-2mn 10
+2mn-5mn 4
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/index.shtml 98 773745 55 35
+/drainage-and-soakwells.shtml 26 146329 0 5
+/paving.shtml 21 106170 0 3
+/about-us.shtml 20 99367 0 1
+/contact.shtml 18 123546 0 8
+/walls.shtml 17 84596 0 2
+/stats/cgi-bin/awstats.pl 6 169502 0 1
+/sitemap.xml 1 1110 0 0
+/sitemap.xml.asp 1 605 0 0
+/google6dc17c9500864178.html 1 300 1 1
+END_SIDER

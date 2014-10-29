@@ -1,0 +1,698 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2010-06 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2538                
+POS_VISITOR 11089               
+POS_DAY 21819               
+POS_DOMAIN 3352                
+POS_LOGIN 3836                
+POS_ROBOT 3991                
+POS_WORMS 4567                
+POS_EMAILSENDER 4698                
+POS_EMAILRECEIVER 4841                
+POS_SESSION 22649               
+POS_SIDER 22853               
+POS_FILETYPES 4976                
+POS_OS 5170                
+POS_BROWSER 5286                
+POS_SCREENSIZE 5559                
+POS_UNKNOWNREFERER 5633                
+POS_UNKNOWNREFERERBROWSER 6435                
+POS_ORIGIN 6785                
+POS_SEREFERRALS 6929                
+POS_PAGEREFS 7128                
+POS_SEARCHWORDS 7604                
+POS_KEYWORDS 9652                
+POS_MISC 2200                
+POS_ERRORS 10408               
+POS_CLUSTER 3692                
+POS_SIDER_404 10529               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20100701001509 5 216 30242042054
+FirstTime 20100601000611
+LastTime 20100630124423
+LastUpdate 20100701205034 5 0 0 3 1
+TotalVisits 213                 
+TotalUnique 174                 
+MonthHostsKnown 150                 
+MonthHostsUnknown 40                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 110 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 17 350 3000669 15 23 66423
+1 39 635 10183623 5 10 16357
+2 33 461 7355265 8 8 37900
+3 39 723 11652865 12 19 51700
+4 28 386 6416379 22 23 113219
+5 37 558 10706079 16 20 64448
+6 21 573 7986134 11 12 44210
+7 28 410 7659047 6 10 38912
+8 28 418 6934515 10 38 323879
+9 35 566 10664667 6 15 22134
+10 10 197 3668585 8 12 23644
+11 14 263 3905034 28 32 124189
+12 47 819 9711982 9 12 24428
+13 22 90 1090964 22 23 52396
+14 11 146 1489217 15 16 51576
+15 7 133 2217119 8 13 28818
+16 11 33 442115 18 18 47681
+17 10 53 1004637 29 39 37646
+18 2 2 16018 13 21 114703
+19 5 52 796235 7 13 18662
+20 5 99 1023052 5 9 16592
+21 4 89 832936 9 15 26078
+22 17 107 1656451 15 31 44855
+23 10 169 2855080 9 18 33146
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 17
+au 269 5095 77259551
+ip 87 1012 16943030
+com 63 284 3906136
+net 37 611 10323739
+nl 8 15 186812
+org 3 23 24027
+za 2 3 101146
+nz 2 46 690597
+uk 2 5 185145
+ru 1 23 374277
+cz 1 2 150639
+in 1 41 677295
+th 0 3 292178
+arpa 1 39 593408
+cn 1 44 21180
+ro 1 45 862213
+ca 1 41 677295
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+googlebot 135 705707 20100630083934 23
+slurp 101 111687 20100629175537 17
+robot 39 71642 20100629172928 27
+yandex 35 141993 20100630094059 18
+legs 20 80090 20100630115303 10
+jeeves 18 61261 20100627134721 9
+msnbot 15 32324 20100630061224 7
+baiduspider 14 72081 20100629143607 5
+unknown 10 11683 20100630013313 10
+crawl 10 47054 20100615164301 3
+python 1 8009 20100629201132 0
+surveybot 6 23970 20100628112718 3
+wombat 4 19952 20100626140609 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+shtml 480 3174097 0 0
+css 655 1928863 0 0
+js 1148 18511601 0 0
+png 412 3376918 0 0
+gif 1674 7169627 0 0
+jpg 2766 72785626 0 0
+swf 197 6321936 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+win2003 106
+winxp 4168
+winnt 663
+winlong 1452
+linux 2
+Unknown 214
+macosx 727
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 16
+msie7.0 1283
+safari 679
+msie8.0 3007
+Unknown 120
+firefox3.6 67
+firefox1.0 1
+firefox3.5.5 47
+msie5.0 2
+firefox3.6.3 950
+firefox3.0.6 78
+firefox3.6.4 108
+msie6.0 685
+netscape4.0 1
+mozilla 182
+firefox3.6.6 32
+firefox3.5.9 90
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 13
+Mozilla/5.0_(compatible;_ScoutJet;__http://www.scoutjet.com/) 20100619222047
+Mozilla/4.0_(compatible;) 20100630031527
+Java/1.6.0_17 20100616130637
+Java/1.6.0_18 20100612134528
+Mozilla/4.0 20100618122941
+BlackBerry9700/5.0.0.321_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/138 20100610125227
+TwengaBot-Discover_(http://www.twenga.fr/bot-discover.html) 20100620160819
+Mozilla/5.0_(compatible;_spbot/2.0.3;__http://www.seoprofiler.com/bot/_) 20100601144533
+Mozilla/3.01_(compatible;) 20100628203752
+- 20100630044220
+Mozilla/5.0_(compatible;_spbot/2.0.4;__http://www.seoprofiler.com/bot_) 20100630013408
+Jyxobot/1 20100619211133
+Mozilla/5.0_(compatible;_seexie.com_bot/4.1;__http://www.seexie.com) 20100628161705
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+BlackBerry9700/5.0.0.321_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/138 20100610125227
+TwengaBot-Discover_(http://www.twenga.fr/bot-discover.html) 20100620160819
+- 20100630044220
+Java/1.6.0_17 20100616130637
+Java/1.6.0_18 20100612134528
+Jyxobot/1 20100619211133
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 144 396
+From1 0 0
+From2 124 145
+From3 9 27
+From4 203 6764
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+ask 1 1
+yandex 1 1
+google 118 139
+search 1 1
+yahoo 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://www.bing.com/search 4 4
+http://co123w.col123.mail.live.com/mail/InboxLight.aspx 2 2
+http://www.bigroo.com/B_M_s_Pave_n_Drain.1544132.htm 1 1
+http://www.hotfrog.com.au/Companies/B-Ms-Pave-N-Drain 1 1
+http://www.perthwa.com/pages/Home/Outdoor___Garden/index.html 1 1
+http://translate.googleusercontent.com/translate_c 0 18
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 79
+b+and+m+pave+and+drain 3
+soakwells 2
+paver+retaining+walls 2
+drainage+channels+perth 2
+garden+drainage 2
+grarden+bm 2
+drains+perth 2
+brick+paving+perth 2
+pave+and+drain 2
+spoon+drain+bricks 2
+perth+soakwell 1
+pave+and+drain+au 1
+installing+a+small+system+stormwater+drain+between+pavers 1
+channel+drain+perth+wa 1
+garden+walls+wa 1
+b%26m+s+pave+and+drain 1
+drainage+flooding+garden 1
+garden+drains 1
+soakwells+western+australia 1
+drainage+solutions+retaining+wall 1
+installing+soakwells+perth 1
+water+drain+shop+perth 1
+paving+services+wa 1
+spone+drains+in+perth 1
+soakwell+installation 1
+spoon+drains+perth 1
+how+to+fix+sinking+brick+paving 1
+drain+solutions+perth 1
+paving+melville+wa 1
+pool+paver+shincking+retainer+wall+needed 1
+soakwell+installers+perth 1
+drain+paving+solutions 1
+retaining+walls+pave 1
+pave+subsidence 1
+%e0%e2%e0%f2%e0%f0%fb 1
+paving+and+drainage+perth 1
+paving+perth 1
+gardenwalls.com.au 1
+paving+drainage+solutions 1
+pave+n+drain 1
+drainage+plus+in+perth 1
+brickpaving+jobs+wa 1
+how+to+construct+drainage+for+paving 1
+paving+drainage 1
+perth+large+pavers 1
+spoon+drain+perth 1
+installing+a+drain+in+paving 1
+buy+pavers+wa 1
+retaining+walls+perth+wa 1
+outdoor+pavers+western+australia 1
+paver+drain 1
+how+to+fix+sinking+pavers 2
+installing+soakwells 1
+drainage+solutions+for+retaining+walls 1
+b+%26+m+pave+n+drain 1
+drainage+paving 1
+paving+drains 2
+retaining+walls+perth 1
+spoon+drains+in+perth 1
+drainage+in+paving 1
+paver+au 1
+perth+paving+small+job 1
+drainage+installation+perth+wa 2
+garden+walls+perth 2
+paving+soakwell 1
+pave+and+drain+perth 1
+pavedrain 2
+can+you+pave+over+a+soakwell 1
+outdoor+drainage+solutions 1
+perth+drainage+solutions 1
+how+to+install+soakwells 1
+soakwells+wa 1
+spoon+pavers 1
+paving+around+drain 1
+paving+installers+perth 1
+soakwells+how+to+install 2
+drainage+channel+grates+perth 2
+soakwells+perth 1
+installing+soakwells+and+spoondrains 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 76
+perth 33
+drain 21
+paving 20
+drainage 20
+and 13
+pave 13
+soakwells 11
+wa 10
+walls 9
+drains 8
+install 3
+installation 3
+australia 2
+paver 5
+over 1
+you 1
+soakwell 5
+between 1
+construct 1
+installing 5
+garden 7
+plus 1
+outdoor 2
+flooding 1
+installers 2
+large 1
+jobs 1
+brickpaving 1
+melville 1
+water 1
+can 1
+sinking 3
+grarden 2
+job 1
+%e0%e2%e0%f2%e0%f0%fb 1
+for 2
+%26 1
+gardenwalls.com.au 1
+around 1
+bricks 2
+retainer 1
+spoondrains 1
+b%26m 1
+retaining 7
+spone 1
+system 1
+small 2
+grates 2
+pavers 7
+channel 3
+solutions 7
+services 1
+au 2
+to 7
+a 3
+pool 1
+subsidence 1
+b 4
+in 5
+fix 3
+stormwater 1
+western 2
+channels 2
+spoon 6
+pavedrain 2
+brick 3
+needed 1
+m 4
+wall 2
+n 2
+buy 1
+shincking 1
+s 1
+bm 2
+how 7
+shop 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+206 4 6324
+403 5 320
+404 12 21540
+301 21 7959
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 6
+/javascripts/'+d+' 2 -
+/a 2 -
+/javascripts/)},injectvars:function(e,f){if(e!=this.html){return}this.html=this.html.replace(/(flashvars(=|/ 2 -
+/javascripts/){f.html(e 2 -
+/javascripts/]||!o.support.htmlserialize&&[1, 2 -
+/javascripts/'+f[g].src+' 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 190
+151.100-26-211.dynamic.dsl.pth.iprimus.net.au 11 78 1532181 20100609082828
+203-59-135-89.perm.iinet.net.au 9 68 985469 20100603042955
+d58-104-120-131.dsl.vic.optusnet.com.au 9 52 739956 20100609053235
+203-206-33-145.dyn.iinet.net.au 8 109 902499 20100624015658
+82-169-247-78.ip.telfort.nl 8 15 186812 20100612134522
+123.20.171.187 8 15 186812 20100616130617
+quota.murdoch.edu.au 8 146 2517324 20100628063654
+dsl-58-7-104-122.wa.westnet.com.au 8 78 1892548 20100611095317
+security.lightspeedsystems.com 7 14 178822 20100629222938
+178.162.68.60 7 7 47772 20100620021245
+vc-41-26-242-89.umts.vodacom.co.za 2 3 101146 20100620173619
+nabc.com.au 2 49 772199 20100610082747
+203.91.85.224.dynamic.rev.eftel.com 3 50 783786 20100601150520
+c-59-100-234-87.per.connect.net.au 3 56 862747 20100605035514
+c211-30-201-3.randw3.nsw.optusnet.com.au 1 40 633395 20100601050916
+proxy4.police.qld.gov.au 2 49 774596 20100611044215
+dsl-124-150-61-91.dyn.iinet.net.au 3 56 865424 20100627110154
+21.143-50-210.network.zzz.iprimus.net.au 5 110 560263 20100628203751
+mail.wacot.wa.edu.au 3 82 913125 20100621061311
+msnbot-207-46-12-29.search.msn.com 1 14 162782 20100601085804
+cpe-203-51-64-114.lns8.cht.bigpond.net.au 1 41 677295 20100630064521
+124-169-71-85.dyn.iinet.net.au 5 59 656658 20100602050421
+ec2-204-236-215-20.compute-1.amazonaws.com 3 3 18828 20100608170318
+220.181.27.25 1 1 8014 20100607052321
+124-168-7-207.dyn.iinet.net.au 1 21 477444 20100617042149
+74.125.16.1 1 1 7990 20100619073659
+c-61-69-141-172.per.connect.net.au 1 43 766537 20100620014239
+nc2-rba-e4-4.cache.isnet.net 1 32 449680 20100618122947
+203-59-64-68.perm.iinet.net.au 2 54 1194008 20100605030506
+sjdc-wtp-gs-maya6.sdi.trendnet.org 3 23 24027 20100627204952
+cpe-138-217-107-59.lns5.lon.bigpond.net.au 1 33 569391 20100616045249
+dsl-58-7-166-155.wa.westnet.com.au 1 16 275753 20100615041530
+92.80.83.130 1 1 7990 20100608121208
+dslb-094-219-014-012.pools.arcor-ip.net 0 19 445523 
+146.195.128.15 2 49 772199 20100630031526
+dsl-210-15-215-123-static.vic.netspace.net.au 3 56 1123200 20100609124917
+ip-202.4.94.130.dsl.sta.onestream.com.au 6 66 980889 20100630123442
+dsl-58-7-94-97.wa.westnet.com.au 4 53 742499 20100605024853
+168.140.181.4 6 65 969401 20100609015543
+203.94.145.247 1 34 604197 20100607054223
+static-208-80-193-38.as13448.com 1 1 8009 20100611225745
+cpe-121-214-187-247.lnse3.lon.bigpond.net.au 1 6 179221 20100629005606
+c122-106-189-128.belrs3.nsw.optusnet.com.au 7 136 723420 20100622001711
+d122-111-78-62.rdl800.qld.optusnet.com.au 2 49 774596 20100609050727
+cpe-121-213-248-194.static.wa.bigpond.net.au 2 52 985053 20100609065640
+cpe-121-220-200-173.lns5.way.bigpond.net.au 1 14 264481 20100628123244
+d58-109-125-86.adl17.sa.optusnet.com.au 2 43 689361 20100622002030
+static-208-80-193-40.as13448.com 2 2 16018 20100614074015
+203.91.84.83.dynamic.rev.eftel.com 2 49 775772 20100629075751
+220-244-238-124.tpgi.com.au 2 49 774596 20100606095344
+150.70.84.27 6 21 40376 20100630123927
+130.95.201.130 5 78 2278480 20100604015853
+124-169-69-143.dyn.iinet.net.au 2 49 774596 20100625091752
+dsl-50-71.wholesaledsl.com.au 2 82 685285 20100628005002
+ec2-174-129-67-248.compute-1.amazonaws.com 4 4 25518 20100621123535
+ec2-75-101-188-26.compute-1.amazonaws.com 3 3 18828 20100611174249
+203-59-123-70.perm.iinet.net.au 3 92 1632422 20100622012813
+124-169-86-39.dyn.iinet.net.au 7 67 1109137 20100604013608
+styx.uwa.edu.au 2 38 746617 20100602050503
+203-206-69-5.dyn.iinet.net.au 7 75 1547293 20100616095633
+203.14.52.45 1 42 756020 20100618031047
+static-208-80-193-121.as13448.com 5 5 40045 20100623133343
+cpe-58-170-172-68.wa.bigpond.net.au 1 42 762461 20100606034150
+cpe-124-182-17-53.lns5.wel.bigpond.net.au 3 50 774596 20100626093618
+203.171.197.174 1 32 449680 20100604144429
+lwdc.br05.gi9-48.host4.24187.americanis.net 1 1 8009 20100617032511
+124-168-243-8.dyn.iinet.net.au 4 135 787899 20100609011625
+c-59-100-168-253.per.connect.net.au 2 50 780434 20100623123249
+de-gla-pix-dmz-pool-002.deit.net.au 1 32 449680 20100628035124
+203-206-11-99.dyn.iinet.net.au 2 49 772199 20100607124816
+95.148.37.19 1 22 471206 20100605223807
+dsl-58-7-204-183.wa.westnet.com.au 2 50 852313 20100621110307
+pool-74-100-243-152.lsanca.ftas.verizon.net 2 83 1432307 20100627152409
+206-53-152-107.rdns.blackberry.net 7 73 1179648 20100610125227
+c-66-41-131-55.hsd1.mn.comcast.net 1 1 7990 20100610231532
+124-169-78-233.dyn.iinet.net.au 2 49 774596 20100603030830
+116.212.193.102 1 41 677295 20100623063950
+static-208-80-193-37.as13448.com 2 2 16018 20100617215657
+ip-121-200-38-207.oceanbroadband.net 2 35 469866 20100611030219
+d122-104-98-58.per20.wa.optusnet.com.au 1 41 677295 20100610090003
+150.70.84.154 2 10 16018 20100608072424
+dsl-58-7-110-2.wa.westnet.com.au 0 48 378940 
+121.10.111.162 1 1 7990 20100612004320
+216.104.15.130 2 10 16018 20100626093136
+c122-108-123-137.werrb2.vic.optusnet.com.au 2 46 690597 20100618054731
+216.104.15.134 0 3 0 
+86-124-210-68.rdsnet.ro 1 45 862213 20100603204638
+216.104.15.138 0 5 0 
+cpe-124-176-20-188.lns2.dea.bigpond.net.au 6 81 2477656 20100608072057
+cpe-121-209-68-30.bxzt1.wel.bigpond.net.au 4 54 791812 20100611115650
+ppp121-44-133-239.lns20.syd7.internode.on.net 3 56 865424 20100616030724
+58-84-131-144.e-wire.net.au 2 51 977974 20100617100834
+150.70.84.47 5 15 40045 20100626093707
+dsl-124-150-41-110.dyn.iinet.net.au 2 49 771919 20100606055912
+226.109.96.58.static.exetel.com.au 2 47 145301 20100628143005
+124-169-86-134.dyn.iinet.net.au 1 32 449680 20100617022202
+client-86-29-76-78.midd.adsl.tesco.net 0 2 223294 
+ppp-124-120-248-156.revip2.asianet.co.th 0 1 111647 
+58.108.190.95.optusnet.com.au 2 49 774596 20100601020446
+216.104.15.142 0 6 0 
+124-169-221-198.dyn.iinet.net.au 4 54 1140598 20100620044928
+static-208-80-193-29.as13448.com 3 3 24027 20100627161312
+94.75.247.240 7 7 43830 20100620160819
+ppp118-210-171-243.lns20.adl6.internode.on.net 3 56 865144 20100605073406
+220-244-153-6.tpgi.com.au 1 35 662322 20100610155223
+123-2-116-70.static.dsl.dodo.com.au 2 34 567749 20100624122246
+8.21.4.254 1 1 5659 20100618122941
+165.090.dsl.pth.iprimus.net.au 1 32 456155 20100628015405
+10.1.10.97 5 67 965198 20100625070038
+mail.jabirumetals.com.au 2 49 774596 20100610051730
+209-20-69-196.slicehost.net 3 3 23970 20100624151014
+112.135.94.119 3 60 997124 20100612034125
+202.124.72.177 3 59 1166784 20100613230636
+202.167.15.163 1 34 611138 20100629001635
+c-61-69-142-236.per.connect.net.au 2 50 852313 20100607013951
+203.33.107.100 1 41 677295 20100601025637
+host86-155-229-71.range86-155.btcentralplus.com 3 47 698587 20100619221631
+24.79.70.115.static.exetel.com.au 1 41 677295 20100618000134
+192.148.117.79 1 19 252622 20100614082749
+cpe-124-178-55-166.lns2.pie.bigpond.net.au 1 32 403810 20100607030531
+msnbot-207-46-12-112.search.msn.com 1 17 215093 20100604234925
+p4fe82016.dip.t-dialin.net 1 1 7990 20100607072803
+abts-mum-dynamic-078.80.169.122.airtelbroadband.in 1 41 677295 20100601135130
+cpe-58-161-192-125.hzml1.wel.bigpond.net.au 2 49 771919 20100615235655
+203-59-162-225.perm.iinet.net.au 1 33 561116 20100610123833
+webserver 0 1 102814 
+static-208-80-193-28.as13448.com 1 1 8009 20100605135146
+ppp118-209-84-202.lns20.mel4.internode.on.net 1 33 598785 20100601082439
+d58-106-88-42.per4.wa.optusnet.com.au 1 41 677295 20100622011701
+58.163.175.131 0 12 145115 
+124-169-82-202.dyn.iinet.net.au 4 57 835352 20100610042330
+58.163.175.132 0 8 127655 
+dtf100.dtf.wa.gov.au 3 53 781425 20100628031118
+ec2-184-73-3-111.compute-1.amazonaws.com 3 3 18828 20100630013408
+ppp-58-8-84-217.revip2.asianet.co.th 0 2 180531 
+202-89-167-186.static.dsl.amnet.net.au 2 49 774596 20100609115054
+58.163.175.133 1 10 192401 20100615024757
+static-208-80-193-35.as13448.com 3 3 24027 20100629022236
+192.148.117.81 0 6 66771 
+58.163.175.134 0 11 172300 
+192.148.117.83 1 7 196503 20100614082749
+192.148.117.85 0 10 129565 
+d122-111-205-32.per10.wa.optusnet.com.au 1 32 449680 20100611104532
+modemcable203.138-201-24.mc.videotron.ca 1 41 677295 20100601172102
+h-96-239.scoutjet.com 1 1 8009 20100619222047
+cpe-58-161-195-244.hzml1.wel.bigpond.net.au 2 51 955127 20100603091050
+85.79.79.222.board.xm.fj.dynamic.163data.com.cn 1 44 21180 20100603065420
+203-173-33-90.dyn.iinet.net.au 6 221 1151388 20100615121234
+192.168.0.150 4 64 1384685 20100611100432
+lawren8.lnk.telstra.net 2 78 1448788 20100615074729
+203.0.223.243 2 52 966350 20100609023556
+124-168-250-57.dyn.iinet.net.au 1 32 449680 20100602070046
+ppp121-45-249-199.lns20.per2.internode.on.net 1 33 581888 20100628073821
+jyxo-crawler21.streaming.cesnet.cz 1 1 8009 20100619211133
+d122-111-223-195.per16.wa.optusnet.com.au 0 1 111647 
+119.12.220.60 1 41 677295 20100627091811
+c-59-101-150-138.mel.connect.net.au 3 50 779570 20100603104227
+89-24-88-58.i4g.tmcz.cz 0 1 142630 
+122-102-97-2.telarus.com.au 6 67 1203359 20100629021315
+123.89.42.120.board.xm.fj.dynamic.163data.com.cn.42.120.in-addr.arpa 1 39 593408 20100603064524
+92.f5.344a.static.theplanet.com 1 1 8009 20100612132713
+122-57-166-124.jetstream.xtra.co.nz 2 46 690597 20100622031007
+cpe-124-178-175-149.lns3.wel.bigpond.net.au 2 49 774596 20100619123230
+123-3-81-116.static.dsl.dodo.com.au 2 46 690597 20100608113252
+cpe-124-182-55-166.lns6.wel.bigpond.net.au 2 128 893028 20100615124551
+proxy22.messagelabs.net 3 56 866488 20100604035433
+adsl-074-236-007-184.sip.mia.bellsouth.net 1 44 808995 20100608124850
+p4fe83866.dip.t-dialin.net 1 1 7990 20100628161705
+static-208-80-193-27.as13448.com 4 4 32036 20100630124423
+fgterm01 2 2 11907 20100601000611
+124-169-151-77.dyn.iinet.net.au 3 56 865424 20100622143545
+220-136-140-114.dynamic.hinet.net 2 2 15980 20100630044220
+dsl-58-7-97-168.wa.westnet.com.au 4 48 650999 20100604090056
+124-169-34-126.dyn.iinet.net.au 2 49 774596 20100614092035
+d122-111-174-69.per23.wa.optusnet.com.au 4 63 955972 20100615071139
+static-208-80-193-39.as13448.com 2 2 16018 20100613032212
+cpe-60-228-241-66.lns2.wel.bigpond.net.au 2 52 1130650 20100615092541
+5ac7e94d.bb.sky.com 3 50 780255 20100606195429
+171.054.dsl.pth.iprimus.net.au 2 53 1018706 20100630084020
+d122-111-154-87.per14.wa.optusnet.com.au 2 49 774596 20100601053445
+124-169-219-95.dyn.iinet.net.au 6 65 968936 20100624020450
+123-2-199-30.static.dsl.dodo.com.au 4 45 569677 20100604042612
+c-68-42-242-123.hsd1.mi.comcast.net 2 2 15980 20100616193116
+203-214-52-38.dyn.iinet.net.au 2 49 772199 20100621030543
+95-27-76-69.broadband.corbina.ru 1 23 374277 20100619164725
+203.62.236.34 2 41 692516 20100601080850
+124-169-117-193.dyn.iinet.net.au 4 69 1587865 20100606020009
+corparray.dudley.gov.uk 2 5 185145 20100628032910
+ec2-184-73-71-238.compute-1.amazonaws.com 5 5 28812 20100601144533
+cc-dmz-sms.melville.wa.gov.au 6 89 3403292 20100622052123
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20100601 25 424 6514756 15
+20100602 8 129 1852955 3
+20100603 21 400 5366521 9
+20100604 26 344 6147563 8
+20100605 14 244 4366907 6
+20100606 13 260 4685105 6
+20100607 8 168 2760170 6
+20100608 16 227 4800193 8
+20100609 44 591 8677240 12
+20100610 20 339 5478527 9
+20100611 28 364 6592572 11
+20100612 16 138 1615377 5
+20100613 4 60 1174793 2
+20100614 5 92 1428066 4
+20100615 22 650 7280987 11
+20100616 23 184 3343529 7
+20100617 11 195 3301991 8
+20100618 7 163 2587241 6
+20100619 10 142 2325000 7
+20100620 21 115 2211549 6
+20100621 11 188 2846500 4
+20100622 22 416 7222149 9
+20100623 10 155 2270533 5
+20100624 18 215 2714924 6
+20100625 8 127 1747803 3
+20100626 7 70 806632 5
+20100627 8 190 2991044 6
+20100628 16 346 3691134 11
+20100629 19 172 2964311 7
+20100630 19 224 3502596 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+15mn-30mn 1
+0s-30s 137
+5mn-15mn 10
+30s-2mn 44
+2mn-5mn 17
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/index.shtml 212 1695109 180 105
+/drainage-and-soakwells.shtml 102 571846 18 49
+/paving.shtml 60 310850 7 21
+/walls.shtml 38 190543 4 15
+/contact.shtml 35 241478 1 18
+/about-us.shtml 33 164271 3 5
+END_SIDER
