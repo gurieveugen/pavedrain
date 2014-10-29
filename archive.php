@@ -19,12 +19,14 @@
 
 get_header(); ?>
 
+<div id="main" class="site-main">
+
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
 		<?php if ( have_posts() ) : ?>
 			<header class="archive-header">
-				<h1 class="archive-title"><?php
+				<h2 class="archive-title"><?php
 					if ( is_day() ) :
 						printf( __( 'Daily Archives: %s', 'twentythirteen' ), get_the_date() );
 					elseif ( is_month() ) :
@@ -34,7 +36,7 @@ get_header(); ?>
 					else :
 						_e( 'Archives', 'twentythirteen' );
 					endif;
-				?></h1>
+				?></h2>
 			</header><!-- .archive-header -->
 
 			<?php /* The loop */ ?>
@@ -51,5 +53,5 @@ get_header(); ?>
 		</div><!-- #content -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
+</div>
 <?php get_footer(); ?>

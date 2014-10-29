@@ -86,7 +86,7 @@ class Slider{
 		    $thumb = is_array($thumb) ? $thumb[0] : 'http://placehold.it/400x300';
 			ob_start();
 			?>
-			<img src="<?php echo $thumb; ?>" alt="<?php echo esc_attr( strip_tags( $slide->post_title ) ); ?>">
+			<img src="<?php echo $thumb; ?>" alt="<?php echo esc_attr( strip_tags( $slide->post_title ) ); ?>" width="400" height="300">
 			<?php
 		}
 	    $var = ob_get_contents();

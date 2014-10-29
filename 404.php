@@ -8,12 +8,12 @@
  */
 
 get_header(); ?>
-
+<div id="main" class="site-main">
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
 			<header class="page-header">
-				<h1 class="page-title"><?php _e( 'Not Found', 'twentythirteen' ); ?></h1>
+				<h2 class="page-title"><?php _e( 'Not Found', 'twentythirteen' ); ?></h2>
 			</header>
 
 			<div class="page-wrapper">
@@ -27,5 +27,5 @@ get_header(); ?>
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
-
+</div>
 <?php get_footer(); ?>

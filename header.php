@@ -28,19 +28,19 @@
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/screen.css" type="text/css" media="screen" charset="utf-8" />
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/screen.css" type="text/css" media="screen">
 	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.3.2.min.js" type="text/javascript" charset="utf-8"></script>
  	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.cycle.all.min.js" type="text/javascript" charset="utf-8"></script>
  	<script src="<?php echo get_template_directory_uri(); ?>/js/presentation.js" type="text/javascript" charset="utf-8"></script>
  	
  	<!-- SIFR 436 -->
- 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/sifr.css" type="text/css" media="screen" charset="utf-8" />
+ 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/sifr.css" type="text/css" media="screen">
  	<script src="<?php echo get_template_directory_uri(); ?>/js/sifr.js" type="text/javascript" charset="utf-8"></script>
  	<script src="<?php echo get_template_directory_uri(); ?>/js/sifr-config.js" type="text/javascript" charset="utf-8"></script>
  	<script src="<?php echo get_template_directory_uri(); ?>/js/sifr-debug.js" type="text/javascript" charset="utf-8"></script>
 	
 	<!-- THICKBOX-->
- 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/thickbox.css" type="text/css" media="screen" charset="utf-8" />
+ 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/thickbox.css" type="text/css" media="screen">
  	
   
   <!--[if lt IE 8]>

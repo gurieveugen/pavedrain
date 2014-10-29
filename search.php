@@ -8,6 +8,7 @@
  */
 
 get_header(); ?>
+<div id="main" class="site-main">
 
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
@@ -15,7 +16,7 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
-				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'twentythirteen' ), get_search_query() ); ?></h1>
+				<h2 class="page-title"><?php printf( __( 'Search Results for: %s', 'twentythirteen' ), get_search_query() ); ?></h2>
 			</header>
 
 			<?php /* The loop */ ?>
@@ -31,6 +32,6 @@ get_header(); ?>
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
+	
+</div>
 <?php get_footer(); ?>
