@@ -19,8 +19,7 @@
 				</div>
   		
   			<span class="copyright">&copy; Copyright 2009 B&amp;M’s Pave n Drain</span>
-  			
-  			<img src="<?php echo get_template_directory_uri(); ?>/images/core/wf-logo.gif" alt="Webfirm" />
+
   		
   		</div>
   		
