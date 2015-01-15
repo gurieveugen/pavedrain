@@ -563,11 +563,6 @@ $ccollection_contacts = new Controls\ControlsCollection(
 			array('placeholder' => 'Your contact phone number')
 		),
 		new Controls\Text(
-			'Fax phone number', 
-			array('default-value' => '(08) 9438 3047'), 
-			array('placeholder' => 'Your contact fax phone number')
-		),
-		new Controls\Text(
 			'Contact email', 
 			array('default-value' => 'deane@pavedrain.com.au'), 
 			array('placeholder' => 'Your contact email')
@@ -592,7 +587,7 @@ $section_contacts = new Admin\Section(
 // ==============================================================
 $theme_settings = new Admin\Page(
 	'Theme settings', 
-	array(), 
+	array( 'capability' => 'edit_others_posts'), 
 	array( $section_contacts )
 );
 $post_type_slider = new Admin\PostType(
